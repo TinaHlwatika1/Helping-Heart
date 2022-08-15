@@ -52,6 +52,14 @@ span.psw {
 h3{
     text-align: center;
 }
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
