@@ -67,5 +67,6 @@ button{
 }
 /* @media screen and (max-width:) */
 span{
-  font-family: font awesome 6 free;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
 }
