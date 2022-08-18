@@ -1,7 +1,22 @@
-.about-page{
-    background-color:#fff;
-}
-html {
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+  .about-page1{
+    text-align: center;
+  
+
+  }
+
+  .about-page{
+    text-align:center;
+    font-size: 19px;
+    font-style: normal;
+    /* background-color:#bbfff9; */
+  }
+ 
+ html {
     box-sizing: border-box;
   }
   
@@ -11,7 +26,7 @@ html {
   
   .column {
     float: left;
-    width: 33.3%;
+    width: 33%;
     margin-bottom: 16px;
     padding: 0 8px;
   }

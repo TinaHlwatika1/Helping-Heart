@@ -1,0 +1,157 @@
+
+    <TITLE>Donate2</TITLE>
+    <link rel="stylesheet" href="./donate.css">
+
+
+<div class="contanier1">
+ <form action="/action_page.php">
+    <div class="container">
+      <h1>Love Packs</h1>
+      <p>Helping Hearts Helpers, we need everyone's help to fill as many LOVE PACKS as possible with basic food & toiletries.<br>
+        This will make such a difference in the lives of many families in our communities! </p>
+      
+  
+      <label for="fname">Name:</label>
+      <input type="text" id="fname" placeholder="" name="Firstname" required>
+
+      <label for="lname">Surname:</label>
+      <input type="text" id="lname" placeholder="" name="Last Name" required><br>
+
+      
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="" name="email" required>  
+
+      <label for="contact">Contact:</label>
+      <input type="text" id="contact" placeholder="" name="contact" required>
+      <br>
+  
+      <p>Select Items:</p>
+      
+      <input type="radio" id="toiletries" name="fav_language" value="toiletries">
+      <label for="donate1"> Toiletries for 1 person -</label><br>
+      <input type="radio" id="food1" name="fav_language" value="food">
+      <label for="donate2">Food for 1 person for 1 week</label><br>
+      <input type="radio" id="food" name="fav_language" value="food and toiletries">
+      <label for="donate4">Food for a family of 4 for 2 weeks </label><br>
+      <input type="radio" id="food" name="fav_language" value="food and toiletries">
+      <label for="donate4">Food & toiletries for 2-4 people</label>
+      <br><br>
+        
+  
+
+      </label>
+      <button type="submit">Submit</button>
+    </div>
+ </form>
+
+ 
+ 
+
+  <div class="slideshow">
+    <ul class="dynamic-txt">
+      <li><span> Small Effort</span></li>
+      <li><span> Make Big Change</span></li>
+    </ul>
+     
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="image1.jpeg">
+       
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 8</div>
+        <img src="image2.jpeg" >
+        
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="image 3.jpeg" >
+       
+      </div>
+
+
+      <div class="mySlides fade">
+        <div class="numbertext">4/ 8</div>
+        <img src="image4.jpeg" >
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="image5.jpeg" >
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="image6.jpeg">
+        
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="image7.jpeg">
+      </div>
+
+
+      <div class="mySlides fade">
+        <div class="numbertext">8 / </div>
+        <img src="image8.jpeg" >
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+        <span class="dot" onclick="currentSlide(7)"></span> 
+        <span class="dot" onclick="currentSlide(8)"></span> 
+      </div>
+      
+  </div>
+</div>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+    
+
+
+
