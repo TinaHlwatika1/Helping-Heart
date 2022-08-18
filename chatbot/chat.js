@@ -25,7 +25,7 @@ function getTime(){
     return time;
 }
 function firstBotMessage(){
-    let firstMessage = "how's it going?"
+    let firstMessage = "Hello there, how can I help you?"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span><p>';
     let time = getTime();
     $("#chat-timestamp").append(time);
@@ -66,7 +66,7 @@ function heartButton(){
 }
 
 $("#textInput").keypress(function(e){
-    if (e.which ==13){
+    if (e.which == 13){
         getResponse();
     }
 });
