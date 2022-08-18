@@ -12,9 +12,10 @@ input[type=text], input[type=password] {
 }
 
 button {
+  border-radius: 40px;
   background-color: #42C2FF;
   color: white;
-  padding: 14px 20px;
+  padding: 12px 35px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
@@ -39,10 +40,6 @@ button:hover {
 img.avatar {
   width: 40%;
   border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
 }
 
 span.psw {
