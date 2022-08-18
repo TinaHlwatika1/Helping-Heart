@@ -3,21 +3,31 @@ body{
     font-family: sans-serif;
     
 }
-.online{
-    mar
-   
+.Online{
+display: flex;
+
+
 }
+.Online .mypic img{
+    width: 80%;
+    height: 100%;
+    margin: 30px;
+    -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
 .online-session{
 font-size: 20px;
+margin-top: 288px;
+margin-left: 10px;
 
 }
 
-.Online .session-plaforms img{
-    height: 77px;
-    width: 77px;
+.join-online .session-plaforms img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
 }
-
-
 
 
 
