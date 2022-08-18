@@ -1,15 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-      
+    background-image: url('background.jpg');
+    background-repeat: no-repeat; 
+    height: 100%;
+    width: 100%;
+    /* background-size: 1529p */
   }
- /* navbar styling here */
-/* header{
-    display: flex;
-    justify-content: space-between;
-    /* background-color: rgb(30, 181, 219); */
- 
-  
 .topnav {
 overflow: hidden;
 /* margin-top: 20px; */
@@ -57,14 +54,12 @@ button{
 }
 
 /* index section styling */
-.index-section {
-  background-image: url('hands.jpg');
-  background-repeat: no-repeat;
-  height: 1440px;
-  width: 4123px;
-  background-size: 1529px;
-  /* margin-top: 5%; */
-}
+/* .index-section {
+  
+
+  
+  x;
+} */
 /* @media screen and (max-width:) */
 span{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

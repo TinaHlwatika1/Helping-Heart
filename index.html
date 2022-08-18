@@ -7,24 +7,63 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="chatbot\home.css">
+    <link rel="stylesheet" href="chatbot\chat.css">
+    
 </head>
 <body>
-    <header>
-        <div class="topnav"> 
-          <a class= "" href='Index.html'>Home</a>
-          <a href="about.html">About</a>
-          <a href='Services.html'>Join Community</a>
-          <a href='Services.html'>Online</a>
-          <a href='Services.html'>Donate</a>
-          <a href='Services.html'>Events</a>
-          <a href="Login.html">Log In</a>
-          <a href="contact.html">Contact</a>
-          
+  <header>
+    <div class="topnav"> 
+      <a class= "" href='Index.html'>Home</a>
+      <a href="about.html">About</a>
+      <a href='Services.html'>Join Community</a>
+      <a href='Services.html'>Online</a>
+      <a href='Services.html'>Donate</a>
+      <a href='Services.html'>Events</a>
+      <a href="Login.html">Log In</a>
+      <a href="contact.html">Contact</a> 
+    </div>
+  </header>
+  <marquee scrollamount="2" direction="side"><span>Welcome To HELPING HEARTS</span></marquee>
+  <div class="index-section">
+ 
+   <!-- Chat Bar Block -->
+  <div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">Chat with Us!
+      <i id="chat-icon" style="color: rgb(255, 255, 255);" class="fa fa-comments"></i>
+    </button>
+    <div class="content">
+      <div class="full-chat-block">
+         <!-- Message Container -->
+        <div class="outer-container">
+          <div class="chat-container">
+            <!-- Message -->
+            <div class="chatbox">
+              <h5 id="chat-timestamp"></h5>
+              <p id="botStarterMessage" class="botText"><span>Hllo there, How can I help?</span></p>
+            </div>
+            <!-- User Text Input -->
+            <div class="chat-bar-input-block">
+              <div class="userInput">
+                <input type="text" name="msg" id="textInput" class="input-box" placeholder="Tap Enter to send a message">
+                <p></p>
+              </div>
+              <div class="chat-bar-icons">
+                <i id="send" class="fa fa-paper-plane" onclick="sendButton()"></i>
+                <i id="chat-icon" class="fa fa-heart" style="color: red;" onclick="heartButtton()"></i>
+              </div>
+            </div>
+            <div class="chat-bar-bottom">
+              <p></p>
+            </div>
+          </div>
         </div>
-    </header>
- <marquee scrollamount="2" direction="side"><span>Welcome To HELPING HEARTS</span></marquee>
-
- <div class="index-section">
-   </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="chatbot\chat.js"></script>
+<script src="chatbot\responses.js"></script>
 </html>
