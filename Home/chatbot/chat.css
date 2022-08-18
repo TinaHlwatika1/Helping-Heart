@@ -1,7 +1,7 @@
 .chat-bar-collapsible{
     position: absolute;
     display: block;
-    bottom: 10px;
+    bottom: 0;
     right: 40px; 
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
 
 .collapsible{
     margin: 0;
-    background-color: rgb(82, 151, 255);
+    background-color: #503bff;
     color: white;
     cursor: pointer;
     padding: 20px;

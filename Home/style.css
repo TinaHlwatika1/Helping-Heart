@@ -2,29 +2,16 @@ body {
     margin-top :10px;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 100%;
-    width: 100%;
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering:optimizeQuality;
-    image-rendering: pixelated;
-    
   }
 .topnav {
 overflow: hidden;
 /* margin-top: 20px; */
-background-color: aqua;
-
-
-
+background-color: #503bff;
 
 }
 .topnav a {
   float: left ;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 57px;
   text-decoration: none;
@@ -34,12 +21,12 @@ background-color: aqua;
 }
 .topnav a:hover {
   background-color: rgb(204, 229, 233);
-  color: black;
+  color: white;
   
 }
 .topnav a.active {
   
-  color: black;
+  color:white;
   
 }
 .topnav input[type=text] {
@@ -58,16 +45,20 @@ button{
   background-color: inherit;
   color: white;
 }
-
-/* index section styling */
-/* .index-section {
-  
-
-  
-  x;
-} */
-/* @media screen and (max-width:) */
 span{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
+}
+.homePage {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* height: 100%; 
+  width: 100%; */
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering:optimizeQuality;
+  image-rendering: pixelated;
+  min-height: 90vh;
+  width: 200vh; 
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about\about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="chatbot\home.css">
     <link rel="stylesheet" href="chatbot\chat.css">
@@ -16,53 +17,109 @@
     <div class="topnav"> 
       <a class= "" href='Index.html'>Home</a>
       <a href="about.html">About</a>
-      <a href='Services.html'>Join Community</a>
       <a href='Services.html'>Online</a>
+      <a href='Services.html'>Join Community</a>
       <a href='Services.html'>Donate</a>
       <a href='Services.html'>Events</a>
       <a href="Login.html">Log In</a>
-      <a href="contact.html">Contact</a> 
+    
     </div>
   </header>
-  <marquee scrollamount="2" direction="side"><span>Welcome To HELPING HEARTS</span></marquee>
-  <div class="index-section">
+  <marquee scrollamount="5" direction="side"><span>Welcome To HELPING HEARTS</span></marquee>
+ 
  
    <!-- Chat Bar Block -->
-  <div class="chat-bar-collapsible">
-    <button id="chat-button" type="button" class="collapsible">Chat with Us!
-      <i id="chat-icon" style="color: rgb(248, 240, 240);" class="fa fa-comments"></i>
-    </button>
-    <div class="content">
-      <div class="full-chat-block">
-         <!-- Message Container -->
-        <div class="outer-container">
-          <div class="chat-container">
-            <!-- Message -->
-            <div class="chatbox">
-              <h5 id="chat-timestamp"></h5>
-              <p id="botStarterMessage" class="botText"><span>Hello there, How can I help?</span></p>
-            </div>
-            <!-- User Text Input -->
-            <div class="chat-bar-input-block">
-              <div class="userInput">
-                <input type="text" name="msg" id="textInput" class="input-box" placeholder="Tap Enter to send a message">
-                <p></p>
-              </div>
-              <div class="chat-bar-icons">
-                <i id="send" class="fa fa-paper-plane" onclick="sendButton()"></i>
-                <i id="chat-icon" class="fa fa-heart" style="color: red;" onclick="heartButtton()"></i>
-              </div>
-            </div>
-            <div class="chat-bar-bottom">
-              <p></p>
-            </div>
-          </div>
+   <div class="homePage">
+     <div class="chat-bar-collapsible">
+       <button id="chat-button" type="button" class="collapsible">Chat with Us
+         <i id="chat-icon" style="color: white;" class="fa fa-comments"></i>
+       </button>
+       <div class="content">
+         <div class="full-chat-block">
+            <!-- Message Container -->
+           <div class="outer-container">
+             <div class="chat-container">
+               <!-- Message -->
+               <div class="chatbox">
+                 <h5 id="chat-timestamp"></h5>
+                 <p id="botStarterMessage" class="botText"><span>Hello there, How can I help?</span></p>
+               </div>
+               <!-- User Text Input -->
+               <div class="chat-bar-input-block">
+                 <div class="userInput">
+                   <input type="text" name="msg" id="textInput" class="input-box" placeholder="Tap Enter to send a message">
+                   <p></p>
+                 </div>
+                 <div class="chat-bar-icons">
+                   <i id="send" class="fa fa-paper-plane" onclick="sendButton()"></i>
+                   <i id="chat-icon" class="fa fa-heart" style="color: red;" onclick="heartButtton()"></i>
+                 </div>
+               </div>
+               <div class="chat-bar-bottom">
+                 <p></p>
+               </div>
+             </div>
+   
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+<!-- ABOUT SECTION -->
+   <div class="about-page1"><h2>Who we are</h2></div>
+  <div class="about-page">
+  <p>Helping Hearts is dedicated to creating a world in which anyone and everyone has access to high-quality, cost-effective mental health services.</p>
+  <p>Some of our other ongoing projects include:</p>
+<p>Helping Hearts Buddy - an anonymous peer to peer support system that provides a safe space for people to open up about their issues to a volunteer<br>
+Volunteers on our Helping Heart Buddy platform undergo an online course that provides them with the basic training to be effective listeners.<br>
+Developing a chat-bot that would answer queries regarding mental health and well-being</p><br>
+<span style="color:blue"> A healthy outside starts from the inside </span>- Robert Urich</p>
+</div>
 
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="tina.jpeg" alt="Tina" style="width:100%">
+        <div class="container">
+          <h2>Tina Hlwatika</h2>
+          <p class="title">Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>tina.hlwatika@younglings.africa</p>
+          <p><button class="button">Contact</button></p>
         </div>
       </div>
     </div>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="faith.jpeg" alt="Faith" style="width:100%; height: 340px;">
+            <div class="container">
+              <h2>Malebo kwenda</h2>
+              <p class="title">Manager</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>malebo.kwenda@younglings.africa</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <!-- <img src="tina.jpeg" alt="Tina" style="width:100%"> -->
+              <div class="container">
+                <h2>Anonymous</h2>
+                <p class="title">Volunteers</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>tina.hlwatika@younglings.africa</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
   </div>
-</div>
+  <!-- ABOUT END -->
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="chatbot\chat.js"></script>

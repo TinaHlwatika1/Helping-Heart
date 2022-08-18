@@ -26,32 +26,20 @@
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required id="psw">
       
-          <label for="psw-repeat"><b>Confirm Password</b></label>
-          <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+          <label for="psw-cnfrm"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Confirm Password" name="psw-repeat" required id="psw-cnfrm">
           <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
       
           
            <button type="button" class="cancelbtn" id="cancelbtn">Cancel</button>
-           <button type="submit"  class="signupbtn" a href="login.html" id="btnSignUp">Sign Up</a></button>
+           <button type="submit"  class="signupbtn" a href="login.html" id="btnSignUp" onclick="checkPassword()">Sign Up</a></button>
         
         </div>
      </form>
      <p id="log"></p>
-  <!-- <script>
-    function saveData(){
-    let First_Name, Last_Name, psw;
-    First_Name = document.getElementById("First_Name").value;
-    Last_Name = document.getElementById("Last_Name").value;
-    email = document.getElementById("email").value;
-    psw = document.getElementById("psw").value;
-
-    localStorage.setItem("First_Name",First_Name)
-    localStorage.setItem("Last_Name",Last_Name)
-    localStorage.setItem("email",email)
-    localStorage.setItem("psw",psw)
-     }
-  </script> -->
+  
 
 </body>
 <script src="./storage.js"></script>
+<script src="confirmPassword.js"></script>
 </html>
