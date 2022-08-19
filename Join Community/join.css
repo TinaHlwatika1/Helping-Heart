@@ -2,7 +2,7 @@
 .title{
     display: flex;
     justify-content: center;
-    color: #000;
+    color: #fff;
     font-size:2.8rem;
     font-weight: 800;
     font-style: italic;
@@ -20,7 +20,7 @@
   
    }
 .project-card{
-    background-color: #fff;
+    background-color: #3ba0ff;
    border: 1px solid #fff;
    min-height: 9em;
    width: 400px;
@@ -47,7 +47,7 @@
    }
    .project-category{
     font-size: 0.8em;
-    color: black;
+    color: #fff;
    }
   
   .project-title {

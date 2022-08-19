@@ -1,13 +1,13 @@
 
 
- /* .myVideo{
+  .myVideo{
   position:fixed;
   right: 200px;
   bottom: 40px;
   width: 500px;
   height: 80%;
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
- } */
+ } 
  .text{
     margin-top: 15%;
 
